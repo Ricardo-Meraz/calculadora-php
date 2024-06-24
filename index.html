@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="proceso.php" method="post">
+    <div class="container">
+        <h1>Calculadora</h1>
+        <h3>Capture el valor 1</h3>
+        <input type="number" id="v1" name="v1">
+        <h3>Captura el valor 2</h3>
+        <input type="number" id="v2" name="v2"><br>
+        <h3>Seleccione la operacion</h3>
+        <select id="Ope" name="Ope" required>
+            <option value="sumar">Sumar</option>
+            <option value="restar">Restar</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+        </select><br><br>
+        <button class="boton">Calcular</button>
+    </form>
+    </div>
+</body>
+</html>
