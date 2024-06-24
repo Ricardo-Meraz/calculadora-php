@@ -18,9 +18,9 @@
         return $a / $b;
     }
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $valor1 = $_POST['v1'];
-        $valor2 = $_POST['v2'];
-        $operador = $_POST['Ope'];
+        $valor1 = $_POST['valor1'];
+        $valor2 = $_POST['valor2'];
+        $operador = $_POST['Operaciones'];
         $resultado = '';
 
         switch ($operador) {
@@ -40,6 +40,6 @@
                 break;
         }
 
-        echo "<h2>Resultado: $resultado</h2>";
+        echo "<h2>El total es: $resultado</h2>";
     }
     ?>
